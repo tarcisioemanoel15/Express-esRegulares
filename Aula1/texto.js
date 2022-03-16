@@ -17,10 +17,11 @@ Ullam maxime repudiandae cum inventore modi, João rerum quasi vel
 Joooooooãooooooo 
 `;
 
-
+const html = '<p>Ola Mundo</p> <p>Hello world</p> <div> Sou a div </div>';
 
 
 module.exports = {
   tx,
-  arquivo
+  arquivo,
+  html
 } 
