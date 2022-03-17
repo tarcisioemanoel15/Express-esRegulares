@@ -19,9 +19,10 @@ Joooooooãooooooo
 
 const html = '<p>Ola Mundo</p> <p>Hello world</p> <div> Sou a div </div>';
 
-
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ atenção abcddefghhijklmnopqrstuvwxyz @! 0123456789';
 module.exports = {
   tx,
   arquivo,
-  html
+  html,
+  alfabeto
 } 
