@@ -19,6 +19,12 @@ Joooooooãooooooo
 
 const html = '<p>Ola Mundo</p> <p>Hello world</p> <div> Sou a div </div>';
 
+const html2 = `
+<p class"cont" id="nomename"> Ola Mundo </p>
+<p> Hello world </p>
+<div> Sou a div </div>`;
+
+
 const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ atenção abcddefghhijklmnopqrstuvwxyz @! 0123456789';
 
 const cpfs = `
@@ -40,5 +46,6 @@ module.exports = {
   arquivo,
   html,
   alfabeto,
-  cpfs, ips
+  cpfs, ips,
+  html2
 } 
