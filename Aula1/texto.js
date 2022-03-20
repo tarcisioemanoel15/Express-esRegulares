@@ -41,11 +41,23 @@ Os IPS são:
 10.10.5.12 255.255.255.255
 `;
 
+const loock = `
+ONLINE 192.168.0.1 abcdf inactive
+ONLINE 192.168.0.2 abcdf active
+ONLINE 192.168.0.3 abcdf active
+ONLINE 192.168.0.4 abcdf active
+OFLINE 192.168.0.5 abcdf active
+OFLINE 192.168.0.6 abcdf inactive
+
+
+`;
+
 module.exports = {
   tx,
   arquivo,
   html,
   alfabeto,
   cpfs, ips,
-  html2
+  html2,
+  loock
 } 
